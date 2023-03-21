@@ -47,13 +47,6 @@ class _DetailPageState extends State<DetailPage> {
                 //     }));
                 //   },
                 // ),
-
-                ElevatedButton(
-                  onPressed: () {
-                    _launchURL('https://google.com');
-                  },
-                  child: Text("google"),
-                ),
               ],
             ),
           )),

@@ -29,9 +29,13 @@ class _HomeState extends State<Home> {
                     );
                   }));
                 },
-                child: Column(
+                child: Row(
                   children: [
-                    Image.network(dataId.fotoUrls),
+                    Column(
+                      children: [
+                        Image.network(dataId.fotoUrls, width: 80, height: 80),
+                      ],
+                    ),
                     Text(dataId.name),
                   ],
                 ),
